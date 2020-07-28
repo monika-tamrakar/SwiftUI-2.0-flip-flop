@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D8A1F7524CFE87E0047DB74 /* FlipFlopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F6224CFE87C0047DB74 /* FlipFlopApp.swift */; };
+		5D8A1F7624CFE87E0047DB74 /* FlipFlopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F6224CFE87C0047DB74 /* FlipFlopApp.swift */; };
+		5D8A1F7724CFE87E0047DB74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F6324CFE87C0047DB74 /* ContentView.swift */; };
+		5D8A1F7824CFE87E0047DB74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F6324CFE87C0047DB74 /* ContentView.swift */; };
+		5D8A1F7924CFE87E0047DB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8A1F6424CFE87E0047DB74 /* Assets.xcassets */; };
+		5D8A1F7A24CFE87E0047DB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8A1F6424CFE87E0047DB74 /* Assets.xcassets */; };
+		5D8A1F8524CFE91E0047DB74 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F8424CFE91E0047DB74 /* Card.swift */; };
+		5D8A1F8724CFE9960047DB74 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F8624CFE9960047DB74 /* CardView.swift */; };
+		5D8A1F8924CFE9F00047DB74 /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1F8824CFE9F00047DB74 /* CompletedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D8A1F6224CFE87C0047DB74 /* FlipFlopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipFlopApp.swift; sourceTree = "<group>"; };
+		5D8A1F6324CFE87C0047DB74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D8A1F6424CFE87E0047DB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D8A1F6924CFE87E0047DB74 /* FlipFlop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFlop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8A1F6C24CFE87E0047DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8A1F7124CFE87E0047DB74 /* FlipFlop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFlop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8A1F7324CFE87E0047DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8A1F7424CFE87E0047DB74 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5D8A1F8424CFE91E0047DB74 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5D8A1F8624CFE9960047DB74 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5D8A1F8824CFE9F00047DB74 /* CompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D8A1F6624CFE87E0047DB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8A1F6E24CFE87E0047DB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D8A1F5C24CFE87C0047DB74 = {
+			isa = PBXGroup;
+			children = (
+				5D8A1F6124CFE87C0047DB74 /* Shared */,
+				5D8A1F6B24CFE87E0047DB74 /* iOS */,
+				5D8A1F7224CFE87E0047DB74 /* macOS */,
+				5D8A1F6A24CFE87E0047DB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D8A1F6124CFE87C0047DB74 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A1F8324CFE9120047DB74 /* Model */,
+				5D8A1F6224CFE87C0047DB74 /* FlipFlopApp.swift */,
+				5D8A1F6324CFE87C0047DB74 /* ContentView.swift */,
+				5D8A1F8624CFE9960047DB74 /* CardView.swift */,
+				5D8A1F6424CFE87E0047DB74 /* Assets.xcassets */,
+				5D8A1F8824CFE9F00047DB74 /* CompletedView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5D8A1F6A24CFE87E0047DB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A1F6924CFE87E0047DB74 /* FlipFlop.app */,
+				5D8A1F7124CFE87E0047DB74 /* FlipFlop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D8A1F6B24CFE87E0047DB74 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A1F6C24CFE87E0047DB74 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5D8A1F7224CFE87E0047DB74 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A1F7324CFE87E0047DB74 /* Info.plist */,
+				5D8A1F7424CFE87E0047DB74 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5D8A1F8324CFE9120047DB74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A1F8424CFE91E0047DB74 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8A1F6824CFE87E0047DB74 /* FlipFlop (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8A1F7D24CFE87E0047DB74 /* Build configuration list for PBXNativeTarget "FlipFlop (iOS)" */;
+			buildPhases = (
+				5D8A1F6524CFE87E0047DB74 /* Sources */,
+				5D8A1F6624CFE87E0047DB74 /* Frameworks */,
+				5D8A1F6724CFE87E0047DB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlipFlop (iOS)";
+			productName = "FlipFlop (iOS)";
+			productReference = 5D8A1F6924CFE87E0047DB74 /* FlipFlop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D8A1F7024CFE87E0047DB74 /* FlipFlop (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8A1F8024CFE87E0047DB74 /* Build configuration list for PBXNativeTarget "FlipFlop (macOS)" */;
+			buildPhases = (
+				5D8A1F6D24CFE87E0047DB74 /* Sources */,
+				5D8A1F6E24CFE87E0047DB74 /* Frameworks */,
+				5D8A1F6F24CFE87E0047DB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlipFlop (macOS)";
+			productName = "FlipFlop (macOS)";
+			productReference = 5D8A1F7124CFE87E0047DB74 /* FlipFlop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D8A1F5D24CFE87C0047DB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5D8A1F6824CFE87E0047DB74 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5D8A1F7024CFE87E0047DB74 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 5D8A1F6024CFE87C0047DB74 /* Build configuration list for PBXProject "FlipFlop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D8A1F5C24CFE87C0047DB74;
+			productRefGroup = 5D8A1F6A24CFE87E0047DB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8A1F6824CFE87E0047DB74 /* FlipFlop (iOS) */,
+				5D8A1F7024CFE87E0047DB74 /* FlipFlop (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8A1F6724CFE87E0047DB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8A1F7924CFE87E0047DB74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8A1F6F24CFE87E0047DB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8A1F7A24CFE87E0047DB74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8A1F6524CFE87E0047DB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8A1F8924CFE9F00047DB74 /* CompletedView.swift in Sources */,
+				5D8A1F7724CFE87E0047DB74 /* ContentView.swift in Sources */,
+				5D8A1F8524CFE91E0047DB74 /* Card.swift in Sources */,
+				5D8A1F8724CFE9960047DB74 /* CardView.swift in Sources */,
+				5D8A1F7524CFE87E0047DB74 /* FlipFlopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8A1F6D24CFE87E0047DB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8A1F7824CFE87E0047DB74 /* ContentView.swift in Sources */,
+				5D8A1F7624CFE87E0047DB74 /* FlipFlopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D8A1F7B24CFE87E0047DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D8A1F7C24CFE87E0047DB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5D8A1F7E24CFE87E0047DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monika.FlipFlop;
+				PRODUCT_NAME = FlipFlop;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D8A1F7F24CFE87E0047DB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monika.FlipFlop;
+				PRODUCT_NAME = FlipFlop;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D8A1F8124CFE87E0047DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monika.FlipFlop;
+				PRODUCT_NAME = FlipFlop;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D8A1F8224CFE87E0047DB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monika.FlipFlop;
+				PRODUCT_NAME = FlipFlop;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D8A1F6024CFE87C0047DB74 /* Build configuration list for PBXProject "FlipFlop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8A1F7B24CFE87E0047DB74 /* Debug */,
+				5D8A1F7C24CFE87E0047DB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8A1F7D24CFE87E0047DB74 /* Build configuration list for PBXNativeTarget "FlipFlop (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8A1F7E24CFE87E0047DB74 /* Debug */,
+				5D8A1F7F24CFE87E0047DB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8A1F8024CFE87E0047DB74 /* Build configuration list for PBXNativeTarget "FlipFlop (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8A1F8124CFE87E0047DB74 /* Debug */,
+				5D8A1F8224CFE87E0047DB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D8A1F5D24CFE87C0047DB74 /* Project object */;
+}
